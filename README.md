@@ -21,11 +21,14 @@
   <img src="https://img.shields.io/badge/Based%20in-Dhaka%2C%20Bangladesh-006A4E?style=flat-square" alt="Dhaka, Bangladesh" />
 </p>
 
-<!-- Add your live link here once deployed, e.g.:
-<a href="https://YOUR-DOMAIN"><img src="https://img.shields.io/badge/Live%20Demo-5B78F6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
--->
+<p>
+  <a href="https://mahabub-space.netlify.app/"><img src="https://img.shields.io/badge/Live%20Site-mahabub--space.netlify.app-5B78F6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Site" /></a>
+  <a href="https://mahabub-space.netlify.app/"><img src="https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Hosted on Netlify" /></a>
+</p>
 
-<img src="./screenshots/home.png" alt="Portfolio home page" width="100%" />
+<a href="https://mahabub-space.netlify.app/"><img src="./screenshots/home.png" alt="Portfolio home page" width="100%" /></a>
+
+**[👉 Visit the live portfolio](https://mahabub-space.netlify.app/)**
 
 </div>
 
@@ -56,6 +59,7 @@ My personal portfolio website: a dark, card-based design that shows who I am, wh
 - **AOS (Animate On Scroll)**: scroll animations
 - **Iconoir & Ionicons**: icons
 - **Formspree**: contact-form-to-email delivery (no backend needed)
+- **Netlify**: hosting
 
 ## 📂 Pages
 
@@ -120,18 +124,17 @@ python -m http.server 8000
 
 > 💡 Opening `index.html` directly also works, but the contact form needs the site to be served over `http://` to submit.
 
-## 🌐 Deploy
+## 🌐 Deployment
 
-This is a static site, so it can be deployed for free as-is:
+The site is live on **Netlify** at **[mahabub-space.netlify.app](https://mahabub-space.netlify.app/)**.
 
-- **GitHub Pages**: *Settings → Pages →* deploy from the `main` branch
-- **Netlify**: drag and drop the project folder
-- **Vercel**: import the repository; no build settings needed
+It's a static site with no build step. Netlify serves the project folder as-is: no build command, and the publish directory is the repository root.
 
 ## 📬 Contact
 
 I'm always open to learning opportunities, collaborations, and new ideas.
 
+- 🌐 **Portfolio:** [mahabub-space.netlify.app](https://mahabub-space.netlify.app/)
 - 📧 **Email:** [contactmahabubrahaman@gmail.com](mailto:contactmahabubrahaman@gmail.com)
 - 💼 **LinkedIn:** [md-mahabub-rahaman-cmmr](https://www.linkedin.com/in/md-mahabub-rahaman-cmmr)
 - 🐙 **GitHub:** [mahabub-rahaman-001](https://github.com/mahabub-rahaman-001)
