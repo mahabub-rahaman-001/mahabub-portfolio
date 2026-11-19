@@ -4,7 +4,8 @@ $listener.Start()
 Write-Host "Server started at http://localhost:8765/"
 Write-Host "Press Ctrl+C to stop"
 
-$basePath = "C:\Users\mahab\Downloads\Zion-Portfolio-main\Mahabub-Portfolio"
+# Serve the folder this script lives in (works on any machine)
+$basePath = $PSScriptRoot
 
 $mimeTypes = @{
     ".html" = "text/html"
