@@ -12,6 +12,29 @@
       duration: 1500,
       once: true,
     });
+
+    // Close mobile menu when a nav link is clicked
+    $(document).on("click", ".header-area .navbar .menu a", function () {
+      $(".header-area .navbar").removeClass("active");
+      $(".header-area .show-menu").removeClass("active");
+    });
+
+    // Scroll-to-top button
+    var $scrollBtn = $(
+      '<button id="scroll-top" aria-label="Scroll to top"><i class="iconoir-arrow-up"></i></button>'
+    ).appendTo("body");
+
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop() > 400) {
+        $scrollBtn.addClass("show");
+      } else {
+        $scrollBtn.removeClass("show");
+      }
+    });
+
+    $scrollBtn.on("click", function () {
+      $("html, body").animate({ scrollTop: 0 }, 500);
+    });
   });
 })(jQuery);
 
